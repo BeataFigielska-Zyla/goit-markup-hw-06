@@ -820,9 +820,36 @@ ul {
 }
 
 .privacy-policy {
-    display: flex;
-    margin-left: 24px;
+    margin-bottom: 24px;
 }
+
+.user-privacy-input {
+
+}
+
+.user-privacy-label {
+    display: block;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--lightslate-color);
+}
+
+.text-privacy-policy {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    transition: background-color var(--mytransition-duration) var(--mytransition-timing-function);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .newsletter-div {
     margin-left: 80px;
