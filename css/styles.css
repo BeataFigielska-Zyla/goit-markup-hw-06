@@ -700,19 +700,107 @@ ul {
 
 }
 
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
 
+.modal-form-p {
+    color: var(--navyblue-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.modal-form>label {
+    font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        color: var(--lightslate-color);
+        margin-bottom: 4px;
+}
+
+.modal-form>input {
+    width: 360px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+    margin-bottom: 8px;
+}
+
+.modal-form>input:hover,
+.modal-form>input:focus {
+    border: 1px solid var();
+}
+.button-send-modal {
+    width: 169px;
+    height: 56px;
+    background-color: var(--iris-color);
+    padding: 16px 32px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    text-align: center;
+    color: var(--white-color);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin: 24px 120px;
+    
+}
+
+textarea {
+    width: 360px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+}
 
 .newsletter-form {
     display: flex;
     flex-direction: column;
+    gap: 24px;
+    
+}
+
+.modal-p {
+    font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        color: var(--lightslate-color);
+        margin-bottom: 4px;
+}
+
+.privacy-policy {
+    display: flex;
+    margin-left: 24px;
 }
 
 .newsletter-div {
     margin-left: 80px;
 }
 
-.newsletter-input {
+.newsletter-email {
     margin-top: 16px;
+}
+.newsletter-input {
+    
     width: 264px;
     height: 40px;
     background-color: var(--navyblue-color);
