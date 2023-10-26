@@ -777,13 +777,21 @@ ul {
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     text-align: center;
     color: var(--white-color);
     border-radius: 4px;
+    border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin: 24px 120px;
+    cursor: pointer;
+    transition: background-color var(--mytransition-duration) var(--mytransition-timing-function);
     
+}
+
+.button-send-modal:hover,
+.button-send-modal:focus {
+    background-color: var(--ocean-color);
 }
 
 .textarea {
@@ -821,6 +829,7 @@ ul {
 
 .privacy-policy {
     margin-bottom: 24px;
+    display: flex;
 }
 
 .user-privacy-input {
@@ -838,7 +847,7 @@ ul {
     color: var(--lightslate-color);
 }
 
-.text-privacy-policy {
+.icon-privacy-policy {
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 16px;
     height: 16px;
@@ -847,9 +856,12 @@ ul {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    fill: transparent;
 }
 
-
+.privacy-policy-link {
+    color: var(--iris-color)
+}
 
 .newsletter-div {
     margin-left: 80px;
