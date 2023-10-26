@@ -697,7 +697,10 @@ ul {
 
 .svg-close {
     transition: fill var(--mytransition-duration) var(--mytransition-timing-function);
+
 }
+
+
 
 .newsletter-form {
     display: flex;
@@ -752,5 +755,5 @@ ul {
 .newsletter-svg {
     width: 24px;
     height: 24px;
-    
+
 }
