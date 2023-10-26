@@ -699,4 +699,35 @@ ul {
     transition: fill var(--mytransition-duration) var(--mytransition-timing-function);
 }
 
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+}
 
+.newsletter-div {
+    margin-left: 80px;
+}
+
+.newsletter-input {
+    margin-top: 16px;
+    width: 264px;
+    height: 40px;
+    background-color: var(--navyblue-color);
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 8px 16px;
+   
+}
+
+.newsletter-button {
+        display: inline-flex;
+        padding: 8px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        border-radius: 4px;
+        background-color: var(--iris-color);
+        margin-left: 24px;
+
+}
