@@ -908,7 +908,7 @@ ul {
     border-radius: 4px;
     background-color: var(--iris-color);
     color: var(--white-color);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
