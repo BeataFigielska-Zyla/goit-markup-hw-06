@@ -771,12 +771,7 @@ textarea {
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
 }
 
-.newsletter-form {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    
-}
+
 
 .modal-p {
     font-family: Roboto;
@@ -796,9 +791,13 @@ textarea {
     margin-left: 80px;
 }
 
-.newsletter-email {
-    margin-top: 16px;
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
 }
+
 .newsletter-input {
     
     width: 264px;
