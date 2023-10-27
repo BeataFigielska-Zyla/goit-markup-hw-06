@@ -931,7 +931,7 @@ fill: var(--cloud-color);
     letter-spacing: 0.04em;
     border: none;
     cursor: pointer;
-    margin-left: 24px;
+    
 }
 
 .newsletter-svg {
