@@ -769,9 +769,9 @@ ul {
     transition: fill var(--mytransition-duration) var(--mytransition-timing-function);
 }
 
-.modal-icon:hover,
-.modal-icon:focus {
-    fill: var(--iris-color)
+.modal-form-input:hover + .modal-icon,
+.modal-form-input:focus + .modal-icon {
+    fill: var(--iris-color);
 }
 .button-send-modal {
     display: block;
@@ -838,9 +838,6 @@ ul {
     display: flex;
 }
 
-.user-privacy-input:focus-within + .icon-privacy-policy {
-fill: var(--iris-color);
-}
 
 .user-privacy-label {
     display: block;
