@@ -874,7 +874,7 @@ fill: var(--iris-color);
     height: 15px;
 }
 
-.user-privacy-input:checked + .icon-privacy-policy span {
+.user-privacy-input:checked + .user-privacy-label > span {
 background-color: var(--ocean-color);
 border: none;
 fill: var(--cloud-color);
