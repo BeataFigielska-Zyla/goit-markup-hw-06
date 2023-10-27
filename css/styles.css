@@ -701,6 +701,8 @@ ul {
 
 }
 
+
+
 .modal-form {
    
     margin-bottom: 8px;
@@ -736,6 +738,7 @@ ul {
 
 .modal-icon-input {
     position: relative;
+   
 }
 
 .modal-form-input {
@@ -761,6 +764,8 @@ ul {
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    width: 18px;
+    height: 24px;
     transition: fill var(--mytransition-duration) var(--mytransition-timing-function);
 }
 
