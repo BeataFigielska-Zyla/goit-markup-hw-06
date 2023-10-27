@@ -869,7 +869,12 @@ fill: var(--iris-color);
     color: var(--iris-color)
 }
 
-.user-privacy-input:checked + .icon-privacy-policy {
+.svg-privacy-policy {
+    width: 15px;
+    height: 15px;
+}
+
+.user-privacy-input:checked + .icon-privacy-policy span {
 background-color: var(--ocean-color);
 border: none;
 fill: var(--cloud-color);
