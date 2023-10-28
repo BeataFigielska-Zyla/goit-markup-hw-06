@@ -60,8 +60,6 @@ ul {
 
 .header-menu {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-nav {
@@ -133,6 +131,7 @@ ul {
 }
 
 .nav-link {
+    display: inline-block;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -159,6 +158,7 @@ ul {
 
 .address {
     font-style: normal;
+    padding: 24px 0;
 }
 
 
