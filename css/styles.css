@@ -837,6 +837,7 @@ ul {
 .privacy-policy {
     margin-bottom: 24px;
     display: flex;
+    
 }
 
 
@@ -849,6 +850,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--lightslate-color);
+    
 }
 
 .icon-privacy-policy {
@@ -861,6 +863,7 @@ ul {
     justify-content: center;
     align-items: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .privacy-policy-link {
