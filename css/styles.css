@@ -754,6 +754,7 @@ ul {
     transition: border-color var(--mytransition-duration) var(--mytransition-timing-function);
 }
 
+
 .modal-form-input:hover,
 .modal-form-input:focus {
     border-color: var(--iris-color);
