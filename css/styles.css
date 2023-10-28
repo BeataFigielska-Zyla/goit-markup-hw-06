@@ -866,12 +866,6 @@ ul {
     color: var(--iris-color)
 }
 
-.svg-privacy-policy {
-    width: 15px;
-    height: 15px;   
-}
-
-
 .user-privacy-input:checked + .user-privacy-label > span {
 background-color: var(--ocean-color);
 border: none;
